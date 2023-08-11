@@ -1,0 +1,26 @@
+body {
+    background-color: bisque;
+}
+
+.flag div {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    background-color: blue;
+}
+.white {
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+
+
+.ex > div > ul + li {
+    color: blue;
+} 
