@@ -1,3 +1,6 @@
+Not finished yet. I've tried to make clear logic and about 2 hours later give up. Will take a look next day again. 
+At least at first version of code required information was adding to the dom and everuthing worked.
+
 const form = document.forms[0]
 const city = document.getElementById('city')
 const button = document.getElementById('show_weather')
