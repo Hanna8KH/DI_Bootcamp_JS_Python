@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(110, 90, 197);
+}
+
+
+/* border: none;
+border-bottom: 2px solid red; */
+
+#container * {
+    font-size: large;
+    padding: 15px;
+
+}
+#show_weather {
+    background-color: rgba(235, 123, 123, 0.911);
+    border-radius: 10%;
+    border: none;
+    /* padding: 15px; */
+    color: rgb(255, 255, 255);
+    /* font-size: large; */
+}
