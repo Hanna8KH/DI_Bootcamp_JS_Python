@@ -1,0 +1,62 @@
+/* 
+.wrap {
+    position: relative;
+    overflow: hidden; */ */
+    /* padding: 16px; */
+    /* border: 1px dashed green;
+}
+.wrap h1 {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+}
+.wrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    background-repeat: repeat;
+    background-position: 50% 0;
+    background-size: cover;
+/* } */
+
+
+.demo-wrap {
+    position: relative;
+    top: 100px;
+  }
+  
+  .demo-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url('money_backgr.jpeg');
+    background-repeat: repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  
+  .demo-content {
+    position: relative;
+    /* width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.64);
+    border-radius: 2rem;
+    width: 80vh;
+    margin: auto;
+    top: 100px;
+  }
+
+  #total {
+    font-weight: bold;
+  }
